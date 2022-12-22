@@ -39,4 +39,7 @@ dependencies {
     }
 
     api "com.github.vuduc4793.fast-image-sdk-android-libs:FastImageSDK-release:1.0"
+    api "com.github.vuduc4793.fast-image-sdk-android-libs:hermes-engine-0.70.6-release:1.0"
+    api "com.github.vuduc4793.fast-image-sdk-android-libs:react-native-0.70.6-release:1.0"
+    api "com.github.vuduc4793.fast-image-sdk-android-libs:react-native-fast-image-release:1.0"
 }
