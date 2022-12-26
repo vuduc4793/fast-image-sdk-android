@@ -35,11 +35,11 @@ dependencies {
     String str = new File("${rootDir}/FastImageSDKAndroid/libs.txt").getText("UTF-8")
     List libs = str.tokenize("\n")
     libs.each {
-        implementation it
+        api it
     }
 
-    implementation "com.github.vuduc4793.fast-image-sdk-android-libs:FastImageSDK-release:1.0.0"
-    implementation "com.github.vuduc4793.fast-image-sdk-android-libs:hermes-engine-0.70.6-release:1.0.0"
-    implementation "com.github.vuduc4793.fast-image-sdk-android-libs:react-native-0.70.6-release:1.0.0"
-    implementation "com.github.vuduc4793.fast-image-sdk-android-libs:react-native-fast-image-release:1.0.0"
+    api "com.github.vuduc4793.fast-image-sdk-android-libs:FastImageSDK-release:1.0.0"
+    api "com.github.vuduc4793.fast-image-sdk-android-libs:hermes-engine-0.70.6-release:1.0.0"
+    api "com.github.vuduc4793.fast-image-sdk-android-libs:react-native-0.70.6-release:1.0.0"
+    api "com.github.vuduc4793.fast-image-sdk-android-libs:react-native-fast-image-release:1.0.0"
 }
